@@ -1,0 +1,32 @@
+/* CSS */
+p {
+  color: #9F0D23;
+  background-color: #D9D8D8;
+}
+h1 {
+  background-color: #72788C
+}
+
+a {
+ color: #ff0000;
+}
+
+a:visited {
+ color: #42CD18;
+}
+
+a:active {
+ color: #ff0000;
+}
+
+a:hover {
+ color: #F8FA74;
+}
+
+#divexample {
+  background-color: #D0D0C7;
+}
+
+.spanstyle {
+  color: #ff0000
+}
