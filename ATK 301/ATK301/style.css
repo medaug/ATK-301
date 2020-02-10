@@ -1,0 +1,9 @@
+/* CSS */
+a:link {
+ color: #ff0000;
+ text-decoration: none;
+}
+
+a:hover {
+ color: #5FC511;
+ text-decoration: underline;
