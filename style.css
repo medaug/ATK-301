@@ -1,0 +1,43 @@
+/* CSS */
+a:link {
+ color: #00ff00;
+  text-decoration: none;
+}
+
+a:hover {
+ color: #ff0000;
+  text-decoration: underline;
+}
+
+main {
+background-color: #9BA2F2;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+h2 {
+  color: #7F3FBF;
+}
+
+h3 {
+  background-color: #F5F55B;
+}
+
+h4 {
+  color: #F5F55B;
+  background-color: #0F7D07;
+}
+
+#specialid {
+ color: #ff0000;
+}
+
+
+.spanstyle {
+  color: #F7C65E;
+}
+
+.specialp {
+ background-color:#8EF75E;
