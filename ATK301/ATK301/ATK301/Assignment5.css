@@ -1,0 +1,41 @@
+/* CSS */
+.customtext {
+  font-family: Impact;
+}
+
+h1{
+  font-family: Impact;
+}
+
+body{
+  background-image: url(Lakeith.jpg);
+  background-repeat: no-repeat;
+  font-family: Impact;
+  color: #893ED4
+}
+
+.specialp {
+ color: #F02DAF;
+}
+
+.spanstyle{
+color: #ff0000
+}
+
+.textjustify {
+text-align: justify;
+}
+
+.textheight {
+line-height: 20px;
+}
+
+.imgbox {
+padding: 10px 10px 10px 10px;
+margin: 20px 20px 20px 20px;
+}
+
+a{
+  color: #F02DAF;
+  text-decoration: none;
+}
