@@ -1,0 +1,96 @@
+h1{
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+h2{
+  font-family: sans-serif, Helvetica;
+}
+header {
+  grid-column: span 12;
+  background-color: #ffffff;
+}
+
+nav {
+  grid-column: span 3;
+}
+
+main {
+  grid-column: span 9;
+}
+
+footer {
+  grid-column: span 12;
+  background-color: #ff0000;
+}
+
+p{
+  font-family: Georgia, sans-serif;
+}
+
+body{
+  background-image: url(a62.png);
+}
+
+a:link{
+  color: #ff0000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+ color: #0000ff;
+ text-decoration: underline;
+}
+
+}
+.specialp {
+ text-align: justify;
+ font-weight: bold;
+}
+
+footer{
+  font-family: Verdana;
+  font-style: italic;
+  background-color: #ff0000;
+}
+
+nav li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
+
+nav ul {
+  list-style-type: none; /* none, disc, circle, square */
+  border: 0px solid red;
+  margin:0;
+  padding: 0;
+}
+
+nav li{
+  border: 1px solid red;
+  width: 250px;
+  margin-bottom: 10px;
+  padding: 0px;
+  background-color: red;
+}
+
+nav li a:hover {
+  background-color: darkred;
+}
+
+#wrapper {
+  width: 960px;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  margin: 1em auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.floatimage {
+  margin: 20px;
+  float: left;
