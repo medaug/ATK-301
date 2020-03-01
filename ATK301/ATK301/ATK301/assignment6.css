@@ -6,6 +6,9 @@ h1{
 
 h2{
   font-family: sans-serif, Helvetica;
+  text-align: inherit;
+  border-bottom: 2px solid black;
+
 }
 header {
   grid-column: span 12;
@@ -25,10 +28,17 @@ main {
 footer {
   grid-column: span 12;
   background-color: #ff0000;
+  color: #ffffff;
+  border: 1px solid black;
+  font-family: Verdana;
+  font-style: italic;
+  text-align: center;
+  font-size: 15px;
 }
 
 p{
   font-family: Georgia, sans-serif;
+  margin-right: 30px;
 }
 
 body{
@@ -52,11 +62,6 @@ a:hover {
  font-weight: bold;
 }
 
-footer{
-  font-family: Verdana;
-  font-style: italic;
-  background-color: #ff0000;
-}
 
 nav li a {
   display: block;
@@ -75,10 +80,11 @@ nav ul {
 
 nav li{
   border: 1px solid red;
-  width: 250px;
+  width: 220px;
   margin-bottom: 10px;
   padding: 0px;
   background-color: red;
+    color: white;
 }
 
 nav li a:hover {
@@ -87,7 +93,7 @@ nav li a:hover {
 
 #wrapper {
   width: 960px;
-  border: 1px solid #000000;
+  border: 3px solid #000000;
   background-color: #ffffff;
   margin: 1em auto;
   display: grid;
