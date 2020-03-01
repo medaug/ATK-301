@@ -1,6 +1,7 @@
 h1{
   font-family: Helvetica, sans-serif;
   font-weight: normal;
+  color: #ffffff;
 }
 
 h2{
@@ -8,11 +9,13 @@ h2{
 }
 header {
   grid-column: span 12;
-  background-color: #ffffff;
+  background-color: #000000;
+  border: 10px solid white;
 }
 
 nav {
   grid-column: span 3;
+  border: 10px solid white;
 }
 
 main {
@@ -43,7 +46,7 @@ a:hover {
  text-decoration: underline;
 }
 
-}
+
 .specialp {
  text-align: justify;
  font-weight: bold;
@@ -94,3 +97,6 @@ nav li a:hover {
 .floatimage {
   margin: 20px;
   float: left;
+  border: 5px solid black;
+  padding: 5px;
+}
