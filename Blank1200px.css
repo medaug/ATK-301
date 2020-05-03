@@ -7,7 +7,7 @@ body {
   width: 1200px;
   border: 1px solid black;
   padding: 24px;
-  background-color: #ffffff;
+  background-image: url(GLITTER.jpeg);
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 24px;
@@ -22,26 +22,26 @@ header {
   margin-bottom: 24px;
 }
 
-img{
+img {
   grid-column: span 4;
 }
 
-nav{
+nav {
   grid-column: span 12;
 }
 
-nav ul{
+nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-nav li{
+nav li {
   padding-bottom: 24px;
   display: inline-block;
 }
 
-nav li a{
+nav li a {
   display: block;
   background-color: #76748D;
   color: white;
@@ -61,17 +61,17 @@ nav li a:hover {
 
 }
 
-main{
+main {
   grid-column: span 8;
   font-size: 20px;
   font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
-aside{
+aside {
   grid-column: span 4;
 }
 
-footer{
+footer {
   grid-column: span 12;
   color: #FFFFFF;
   background-color: #76748D;
@@ -87,6 +87,12 @@ footer{
   border-radius: 10px;
 }
 
-h1{
+h1 {
   text-shadow: 2px 2px 2px #000000;
+  font-size: 60px;
+}
+
+h2 {
+  text-weight: bold;
+  text-decoration: underline;
 }
