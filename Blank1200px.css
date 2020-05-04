@@ -96,3 +96,7 @@ h2 {
   text-weight: bold;
   text-decoration: underline;
 }
+
+aside img {
+   width:100%;
+}
