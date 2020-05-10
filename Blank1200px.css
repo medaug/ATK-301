@@ -28,6 +28,7 @@ img {
 
 nav {
   grid-column: span 12;
+  text-align: right;
 }
 
 nav ul {
@@ -90,11 +91,13 @@ footer {
 h1 {
   text-shadow: 2px 2px 2px #000000;
   font-size: 60px;
+  text-align: center;
 }
 
 h2 {
   text-weight: bold;
   text-decoration: underline;
+  text-align: center;
 }
 
 aside img {
